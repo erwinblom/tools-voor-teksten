@@ -6,6 +6,8 @@ Zet documenten om naar Markdown, controleer persoonsgegevens en metadata, voeg d
 
 Ik maakte dit met AI omdat ik het zelf nodig had. Ik ben geen programmeur en geen designer. Door mijn tools te delen wil ik laten zien wat er nu mogelijk is en je inspireren om zelf aan de slag te gaan. Gebruik dit als vertrekpunt: bouw erop voort en maak het naar je eigen maat. Ik bedacht wat de tool moest kunnen; AI schreef de code. Nu mag jij ermee verder, met of zonder AI als bouwmaatje.
 
+![Tools voor Teksten — overzicht met fictieve voorbeelddocumenten](docs/tools-voor-teksten.png)
+
 ## Meteen gebruiken
 
 - **Online:** [open Tools voor Teksten](https://tools-voor-teksten-fmt.erwinblom.chatgpt.site/). Geen account nodig.
