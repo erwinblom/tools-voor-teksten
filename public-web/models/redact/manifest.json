@@ -1,0 +1,80 @@
+{
+  "model": "redact",
+  "revision": "v0.4.2",
+  "sdkVersion": "4.2.3",
+  "files": [
+    {
+      "name": "redact.tflite",
+      "bytes": 23929696,
+      "sha256": "2b6237e3a08ee12966929af477fb3723018bacdb74a22f78992b8c0f6b5d545d"
+    },
+    {
+      "name": "redact_tokenizer.bin",
+      "bytes": 391416,
+      "sha256": "81bc354dc99285e05b8f70edca9df3afbd83dfa4b0cea18d0448ab17ce58aae2"
+    },
+    {
+      "name": "labels.json",
+      "bytes": 3842,
+      "sha256": "228835734235f85ec4bf31391a296aa6e8a36684e1171e841ac94f7b3f9b430a"
+    }
+  ],
+  "runtime": {
+    "name": "@litertjs/core",
+    "version": "2.6.0",
+    "files": [
+      {
+        "name": "litert_wasm_compat_internal.js",
+        "bytes": 279036,
+        "sha256": "cffb7bebb9411e2160d711ccff00c3921b0031a66a692f58c25ce8204b7ec541"
+      },
+      {
+        "name": "litert_wasm_compat_internal.wasm",
+        "bytes": 10948854,
+        "sha256": "4190033238e53ec86b832bad4649851ad111025c226c1688cfae20e1f8fe8926"
+      },
+      {
+        "name": "litert_wasm_internal.js",
+        "bytes": 278825,
+        "sha256": "43bc8c66b43e04630337c90edcea16b133a9f543d008e496a1550d3a229bc9ac"
+      },
+      {
+        "name": "litert_wasm_internal.wasm",
+        "bytes": 11131135,
+        "sha256": "13db768de5c7a087517e46a0172c81102a7983bd159e6e47b0a0b933bae60014"
+      },
+      {
+        "name": "litert_wasm_jspi_internal.js",
+        "bytes": 299650,
+        "sha256": "af44bcbda6fb77bfb48d0bddffdbc6b68da9f7987481bf4f5e87ff7cce531ef8"
+      },
+      {
+        "name": "litert_wasm_jspi_internal.wasm",
+        "bytes": 12561552,
+        "sha256": "24776f94170f0ad825cff8697a0573adab2258276c861db49bf5f9e72b95c291"
+      },
+      {
+        "name": "litert_wasm_threaded_internal.js",
+        "bytes": 323431,
+        "sha256": "88f9cde94a3ffd906fc35a9c77eded6ee7e168d149b76344998ced3635f47fc1"
+      },
+      {
+        "name": "litert_wasm_threaded_internal.wasm",
+        "bytes": 11160133,
+        "sha256": "625f55564e869e7bb4d8a14d12ea382868f4ad32555f0f670b94422822611120"
+      }
+    ]
+  },
+  "coreTransport": {
+    "file": "vendor/redact-core.wasm-gzip.bin",
+    "encoding": "gzip",
+    "bytes": 19294730,
+    "sha256": "3d96c0352edda494f1b1294ee04ce299ad8426e7a09ec427d7661bcc4d8cfefd",
+    "decodedBytes": 46278435,
+    "decodedSha256": "960f9b9d498ac984f37f6baf8c5bc674b0d4fe0bc4a6ea23570a10a9cf4a9558"
+  },
+  "attribution": "On-device AI by Desert Ant Labs",
+  "attributionUrl": "https://desertant.com",
+  "licenceUrl": "https://license.desertant.com/1.0",
+  "networkNotice": "Modelinference is lokaal. De SDK gebruikt internet voor licentietelling; volgens de licentie zonder invoer, uitvoer of documentinhoud."
+}
