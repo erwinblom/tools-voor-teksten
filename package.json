@@ -1,6 +1,6 @@
 {
   "name": "tools-voor-teksten",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "type": "module",
   "scripts": {
@@ -12,7 +12,7 @@
     "build:web": "VITE_REMOTE_MODELS=true vite build",
     "prebuild:web": "node scripts/prepare-assets.mjs",
     "prebuild": "node scripts/prepare-assets.mjs",
-    "package:mac": "node scripts/package-mac.mjs --version 1.0.0",
+    "package:mac": "node scripts/package-mac.mjs",
     "serve": "node scripts/local-server.mjs --root dist"
   },
   "dependencies": {

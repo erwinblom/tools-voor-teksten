@@ -9,8 +9,8 @@ Ik maakte dit met AI omdat ik het zelf nodig had. Ik ben geen programmeur en gee
 ## Meteen gebruiken
 
 - **Online:** [open Tools voor Teksten](https://tools-voor-teksten-fmt.erwinblom.chatgpt.site/). Geen account nodig.
-- **Mac met Apple Silicon:** [download versie 1.0.0](https://github.com/erwinblom/tools-voor-teksten/releases/download/v1.0.0/Tools-voor-Teksten-1.0.0-mac-arm64.zip). Geen Node- of Python-installatie nodig.
-- **Alle bestanden en versies:** [GitHub Releases](https://github.com/erwinblom/tools-voor-teksten/releases/tag/v1.0.0).
+- **Mac met Apple Silicon:** [download versie 1.0.1](https://github.com/erwinblom/tools-voor-teksten/releases/download/v1.0.1/Tools-voor-Teksten-1.0.1-mac-arm64.zip). Geen Node- of Python-installatie nodig.
+- **Alle bestanden en versies:** [GitHub Releases](https://github.com/erwinblom/tools-voor-teksten/releases/tag/v1.0.1).
 
 Bugs melden is welkom. Nog liever zien we dat je zelf gaat bouwen en aanpassen. Deel gerust wat je maakt; dat is geen verplichting. Er is geen belofte van onbeperkte ondersteuning.
 
@@ -101,3 +101,5 @@ De eigen appcode en technische documentatie zijn beschikbaar onder [MIT](LICENSE
 De Desert Ant Labs-SDK en -modellen zijn **source-available**, met hun eigen voorwaarden; ze worden niet door onze MIT-licentie open source. Bekijk [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) en `THIRD_PARTY_LICENSES/`. De meegeleverde Node-runtime heeft zijn eigen licentie en notices. Merkgebruik staat in [MERKVOORWAARDEN.md](MERKVOORWAARDEN.md). FMT staat op het gereedschap; je eigen uitvoer krijgt geen verplicht FMT-logo.
 
 De openbare repository begint met een schone geschiedenis. Persoonlijke projectgegevens, Sites-configuratie, privé-opdrachtenregister, caches en eerdere interne Git-geschiedenis zijn geen onderdeel van deze uitgave.
+
+Bij **Persoonsgegevens afschermen** download en laad je eerst het AI-model. De tekst blijft tot die tijd alleen-lezen. Zodra **Model klaar** verschijnt, kun je de tekst bewerken en gegevens afschermen. Een mislukte download kun je opnieuw proberen.

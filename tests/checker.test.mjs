@@ -116,3 +116,21 @@ test('merge: a single selected file cannot start merging',async()=>{
  const app=await ui();app.context.sourceFile=new File(['tekst'],'een.txt');await app.run('addFiles([sourceFile])');await app.run("openTool('merge')");
  assert.equal(app.document.querySelector('[data-act="merge"]').disabled,true);await app.run('runMerge()');assert.equal(app.run('outputs.length'),0);
 });
+
+test('model download gates editing until recognition succeeds, and failure keeps editing locked',async()=>{
+  let fail=true;
+  const app=await ui({detectPersonalData:async()=>{if(fail)throw Error('download onderbroken');return {entities:[]}}});
+  app.context.sourceFile=new File(['Contact Eva.'],'bron.txt');
+  await app.run('addFiles([sourceFile])');await app.run("openTool('redact')");
+  assert.equal(app.document.querySelector('#source-text').hasAttribute('readonly'),true);
+  assert.equal(app.document.querySelector('[data-act="manual-selection"]').disabled,true);
+  assert.match(app.document.querySelector('.model-gate').textContent,/pas als het model volledig/);
+  await app.run('scan()');
+  assert.equal(app.document.querySelector('#source-text').readOnly,true);
+  assert.match(app.document.querySelector('#model-progress').textContent,/alleen-lezen/);
+  fail=false;await app.run('scan()');
+  assert.equal(app.document.querySelector('#source-text').hasAttribute('readonly'),false);
+  assert.equal(app.document.querySelector('#source-text').readOnly,false);
+  assert.equal(app.document.querySelector('[data-act="manual-selection"]').disabled,false);
+  assert.match(app.document.querySelector('.model-gate').textContent,/Model klaar/);
+});
