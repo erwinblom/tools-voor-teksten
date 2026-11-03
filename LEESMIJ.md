@@ -9,8 +9,8 @@ Ik maakte dit met AI omdat ik het zelf nodig had. Ik ben geen programmeur en gee
 ## Meteen gebruiken
 
 - **Online:** [open Tools voor Teksten](https://tools-voor-teksten-fmt.erwinblom.chatgpt.site/). Geen account nodig.
-- **Mac met Apple Silicon:** [download versie 1.0.1](https://github.com/erwinblom/tools-voor-teksten/releases/download/v1.0.1/Tools-voor-Teksten-1.0.1-mac-arm64.zip). Geen Node- of Python-installatie nodig.
-- **Alle bestanden en versies:** [GitHub Releases](https://github.com/erwinblom/tools-voor-teksten/releases/tag/v1.0.1).
+- **Mac met Apple Silicon:** [download versie 1.0.2](https://github.com/erwinblom/tools-voor-teksten/releases/download/v1.0.2/Tools-voor-Teksten-1.0.2-mac-arm64.zip). Geen Node- of Python-installatie nodig.
+- **Alle bestanden en versies:** [GitHub Releases](https://github.com/erwinblom/tools-voor-teksten/releases/tag/v1.0.2).
 
 Bugs melden is welkom. Nog liever zien we dat je zelf gaat bouwen en aanpassen. Deel gerust wat je maakt; dat is geen verplichting. Er is geen belofte van onbeperkte ondersteuning.
 

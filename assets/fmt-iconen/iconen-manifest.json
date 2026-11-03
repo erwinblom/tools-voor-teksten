@@ -1,0 +1,28 @@
+{
+  "style_version": "2026-11-03",
+  "approved_by": "Erwin Blom",
+  "icons": [
+    "werkplaats",
+    "tools-voor-teksten",
+    "kladblok",
+    "video",
+    "screenshot"
+  ],
+  "sha256": {
+    "fmt-tools-voor-teksten.svg": "ba348873eb5a4fb6ef344138acb29d44f8a556019fb1e5b578037cc044f20c10",
+    "fmt-video.icns": "6eccf368c4276f9bee3c45dd8d7f6a53735e4ffe72127b4820e8ecb421c17855",
+    "fmt-tools-voor-teksten.icns": "2ab1969b1c951beb1a7013247b7d67552d843e604b7dbc3dea1739b9d59ec701",
+    "fmt-tools-voor-teksten.png": "865428e3f3722347f751c1fa2b6f45fdce02fa858ebe2ced2ac34cb9ca2f62fd",
+    "fmt-kladblok.icns": "ca6f569a249e482ecb9972058a3245868093ef4bbc21cfdae304ee1a45724776",
+    "fmt-kladblok.png": "bccd214eb9f198c64a7f2d25c1731126cdfed7f346a09e1fe621ef0da6c30513",
+    "fmt-werkplaats.png": "d05753684cf3abb5d527ff0c1446b34caf301fe179ac23fb7f3ec1f1649b6a5d",
+    "fmt-video.svg": "0da1fad5131daeb38f42523abea49cc921c440bc8be0c42fa307cd8d2437e49b",
+    "fmt-screenshot.icns": "0bb4638d4490e36936581bd17e2351e9d265749eb19f0c3dec387fd4a33f349a",
+    "fmt-screenshot.png": "0634929c878b8b0663284edc179e66649d8a77760d34307fed7bf0c5aac0733c",
+    "fmt-screenshot.svg": "88c0dba2569c8d5081015bf816f8f5d1d2a6864781b24c57f8526866cc9c0444",
+    "fmt-werkplaats.icns": "3a77de86bc1f70fa7eb1c554ca73bca5b20cb80e3e01110359219a7b12269300",
+    "fmt-video.png": "664d2d3e7d254e2e10cc1eded97be19fee6b99c61b29fe3f6f5e58afb53c24c0",
+    "fmt-werkplaats.svg": "e784c383f393a24e2f2cdce2d33a79d372a9a38d273f24859666e0d2605978af",
+    "fmt-kladblok.svg": "2e1e097df08e967901d468b42103a9dd48b804527851a045f0e575238aec3f42"
+  }
+}
