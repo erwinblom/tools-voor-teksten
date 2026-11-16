@@ -12,7 +12,7 @@ Zet documenten om naar Markdown, controleer persoonsgegevens en metadata, voeg d
 
 Gratis · Geen account · Je documenten blijven op je apparaat
 
-> **Dit is een half-product.** Het werkt zoals het is, en het is gemaakt om te veranderen. [Spring naar: maak het van jezelf](#maak-het-van-jezelf).
+> **Klaar voor gebruik, en te personaliseren.** Het werkt zoals het is. Wil je het naar je eigen hand zetten, dan kan dat ook. [Spring naar: maak het van jezelf](#maak-het-van-jezelf).
 
 ## Beginnen
 
