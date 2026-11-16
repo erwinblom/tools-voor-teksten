@@ -5,8 +5,8 @@
 Zet documenten om naar Markdown, controleer persoonsgegevens en metadata, voeg documenten samen en vergelijk versies. De documentinhoud wordt op je eigen apparaat verwerkt.
 
 - **Online:** [open Tools voor Teksten](https://tools-voor-teksten-fmt.erwinblom.chatgpt.site/). Geen account nodig.
-- **Mac met Apple Silicon:** [download versie 1.0.2](https://github.com/erwinblom/tools-voor-teksten/releases/download/v1.0.2/Tools-voor-Teksten-1.0.2-mac-arm64.zip). Geen Node- of Python-installatie nodig.
-- **Alle bestanden en versies:** [GitHub Releases](https://github.com/erwinblom/tools-voor-teksten/releases/tag/v1.0.2).
+- **Mac met Apple Silicon:** [download versie 1.0.3](https://github.com/erwinblom/tools-voor-teksten/releases/download/v1.0.3/Tools-voor-Teksten-1.0.3-mac-arm64.zip). Geen Node- of Python-installatie nodig. De map `broncode` bevat de leesbare bron en `AGENTS.md` voor aanpassingen.
+- **Alle bestanden en versies:** [GitHub Releases](https://github.com/erwinblom/tools-voor-teksten/releases/tag/v1.0.3).
 
 Gratis · Geen account · Je documenten blijven op je apparaat
 
