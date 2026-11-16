@@ -53,7 +53,11 @@ for(const name of ['LEESMIJ.md','LICENSE','THIRD_PARTY_NOTICES.md','MERKVOORWAAR
 for(const name of ['assets','THIRD_PARTY_LICENSES']){
  try{await cp(join(project,name),join(staging,name),{recursive:true});}catch(error){if(error.code!=='ENOENT')throw error;}
 }
-// Dist is a static build only: none of the personal Sites identity or source checkout is copied.
+// Include editable source and AI guidance, without local settings or dependencies.
+for (const name of ['src','tests','examples','assets','public-web','scripts','index.html','AGENTS.md','package.json','package-lock.json','vite.config.js','LICENSE','THIRD_PARTY_NOTICES.md','THIRD_PARTY_LICENSES','MERKVOORWAARDEN.md','README.md']) {
+  const target=join(staging,'broncode',name); await mkdir(dirname(target),{recursive:true}); await cp(join(project,name),target,{recursive:true});
+}
+// Dist is a static build only: none of the personal Sites identity  is copied.
 const manifest=[];
 async function inventory(dir,prefix=''){
  for(const entry of await readdir(dir,{withFileTypes:true})){

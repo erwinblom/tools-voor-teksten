@@ -1,6 +1,6 @@
 # Wijzigingen
 
-## Nog niet uitgebracht
+## 1.0.3 — 16 november 2026
 
 - Broncode van `src/main.js`, `src/style.css`, `src/tokens.css` en `index.html` leesbaar opgemaakt, met uitleg. De werking is gelijk gebleven.
 - `AGENTS.md` toegevoegd: instructies voor de AI van wie de tool wil aanpassen.
